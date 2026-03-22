@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="212.0" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/24.0.1" fx:controller="olamundojavafx.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnClick" layoutX="111.0" layoutY="117.0" mnemonicParsing="false" onAction="#clicouBotao" prefHeight="38.0" prefWidth="95.0" text="Clique Aqui" textAlignment="CENTER" />
+      <Label fx:id="lblMensagem" layoutX="116.0" layoutY="64.0" prefHeight="28.0" prefWidth="87.0" text="Olá Thiago" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
