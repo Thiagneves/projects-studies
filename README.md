@@ -7,13 +7,14 @@ Este repositório organiza meus **projetos e estudos práticos**, reunindo exerc
 ## 📚 Conteúdos
 
 ### ⚡ Arduino
-- 
+- [Todos os Porjetos](https://github.com/Thiagneves/projects-studies/tree/main/arduino)
 
 ### 🎨 JavaFX
-- 
+- [Olá MUndo - JavaFX](https://github.com/Thiagneves/projects-studies/tree/main/olaMundo-JavaFX/project-ola-mundo-JavaFX)
+- [Swing JavaFX](https://github.com/Thiagneves/projects-studies/tree/main/olaMundo-JavaFX/SwingJavaFX)
 
 ### 🖋️ Portugol
--   
+- [Projetos usando Porugol](https://github.com/Thiagneves/projects-studies/tree/main/portugol/portugol-projects)
 
 ---
 
