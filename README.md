@@ -1,2 +1,36 @@
-# projects-studies
-Repository dedicated to personal learning and experimentation, hosting small projects and exercises aimed at improving programming skills, testing new ideas, and exploring different technologies. Perfect for tracking progress and keeping study projects organized.
+# 🛠️ Projects & Studies
+
+Este repositório organiza meus **projetos e estudos práticos**, reunindo exercícios, exemplos e projetos desenvolvidos nas áreas mais diversas áreas da Programação. O objetivo é centralizar o conhecimento e servir como referência prática para aplicação dos conceitos aprendidos.
+
+---
+
+## 📚 Conteúdos
+
+### ⚡ Arduino
+- 
+
+### 🎨 JavaFX
+- 
+
+### 🖋️ Portugol
+-   
+
+---
+
+## 🎯 Objetivo
+
+Centralizar **todos os projetos e estudos práticos**, facilitando revisões e aplicação prática de conceitos em diferentes linguagens e plataformas.
+
+---
+
+## 💻 Estrutura do Repositório
+
+- `/Arduino` – Projetos - Foco na Eng.
+- `/JavaFX` – Projetos e exemplos em JavaFX  
+- `/Portugol` – Exercícios e projetos em Portugol  
+
+---
+
+## 🔗 Links Rápidos
+
+- [Meu perfil no GitHub](https://github.com/Thiagneves)  
