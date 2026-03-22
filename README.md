@@ -9,9 +9,9 @@ Este repositório organiza meus **projetos e estudos práticos**, reunindo exerc
 ### ⚡ Arduino
 - [Todos os Porjetos](https://github.com/Thiagneves/projects-studies/tree/main/arduino)
 
-### 🎨 JavaFX
-- [Olá MUndo - JavaFX](https://github.com/Thiagneves/projects-studies/tree/main/olaMundo-JavaFX/project-ola-mundo-JavaFX)
-- [Swing JavaFX](https://github.com/Thiagneves/projects-studies/tree/main/olaMundo-JavaFX/SwingJavaFX)
+### 🎨 Java | JavaFX
+- [Olá MUndo - JavaFX](https://github.com/Thiagneves/projects-studies/tree/main/java/olaMundo-JavaFX)
+- [Animação com Java](https://github.com/Thiagneves/projects-studies/tree/main/java/animacao-Java)
 
 ### 🖋️ Portugol
 - [Projetos usando Porugol](https://github.com/Thiagneves/projects-studies/tree/main/portugol/portugol-projects)
