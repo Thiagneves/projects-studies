@@ -5,6 +5,7 @@ public class Desenho extends JFrame {
 
     Circulo circulo;
 
+    /*
     public Desenho(){
         this.setTitle("Meu desenho");
         this.setSize(300, 300);
@@ -23,6 +24,7 @@ public class Desenho extends JFrame {
             }
         }).start();
     }
+     */
 
     public void mover() {
         this.circulo.mover(10, 0);

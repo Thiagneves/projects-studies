@@ -1,0 +1,207 @@
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(315deg, #FFFFFF 0%, #D7E1EC 74%);
+}
+
+.wrapper .button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background-color: #FFF;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.4s ease-out;
+}
+
+.wrapper .button:hover {
+    width: 200px;
+}
+
+.wrapper .button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.4s ease-out;
+}
+
+.wrapper .button:nth-child(1):hover .icon {
+    background: #4267B2;
+}
+
+.wrapper .button:nth-child(2):hover .icon {
+    background: #1DA1F2;
+}
+
+.wrapper .button:nth-child(3):hover .icon {
+    background: #E1306C;
+}
+
+.wrapper .button:nth-child(4):hover .icon {
+    background: #333;
+}
+
+.wrapper .button:nth-child(5):hover .icon {
+    background: #FF0000;
+}
+
+.wrapper .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.1s ease-out;
+}
+
+.wrapper .button:hover .icon i {
+    color: #fff;
+}
+
+.wrapper .button span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.2s ease-out;
+}
+
+.wrapper .button:nth-child(1) span {
+    color: #4267B2;
+}
+
+.wrapper .button:nth-child(2) span {
+    color: #1DA1F2;
+}
+
+.wrapper .button:nth-child(3) span {
+    color: #E1306C;
+}
+
+.wrapper .button:nth-child(4) span {
+    color: #333;
+}
+
+.wrapper .button:nth-child(5) span {
+    color: #FF0000;
+}
+
+/*------------------------------------------------------*/
+
+.wrapper1 {
+    display: inline-flex;
+
+}
+
+.wrapper1 .icon {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper1 .icon span {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    display: block;
+    background: #FFF;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+
+.wrapper1 .icon span i {
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.wrapper1 .icon:hover span{
+    color: #FFF;
+}
+
+.wrapper1 .icon .tooltip {
+    position: absolute;
+    top: 0px;
+    background: #FFF;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px 18px;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper1 .icon:hover .tooltip {
+    top: -70px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.wrapper1 .icon .tooltip:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #FFF;
+    bottom: -8px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper1 .icon:hover span, 
+.wrapper1 .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+
+.wrapper1 .facebook:hover span, 
+.wrapper1 .facebook:hover .tooltip,
+.wrapper1 .facebook:hover .tooltip:before {
+    background: #3B5999;
+}
+
+.wrapper1 .twitter:hover span, 
+.wrapper1 .twitter:hover .tooltip,
+.wrapper1 .twitter:hover .tooltip:before {
+    background: #46C1F6;
+}
+
+.wrapper1 .instagram:hover span, 
+.wrapper1 .instagram:hover .tooltip,
+.wrapper1 .instagram:hover .tooltip:before {
+    background: #E1306C;
+}
+
+.wrapper1 .github:hover span, 
+.wrapper1 .github:hover .tooltip,
+.wrapper1 .github:hover .tooltip:before {
+    background: #333;
+}
+
+.wrapper1 .youtube:hover span, 
+.wrapper1 .youtube:hover .tooltip,
+.wrapper1 .youtube:hover .tooltip:before {
+    background: #DE463B;
+}

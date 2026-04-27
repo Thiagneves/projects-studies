@@ -1,29 +1,26 @@
 import java.awt.*;
 import java.util.Scanner;
+import java.awt.Color;
 
-public class Retangulo {
-    private Ponto ponto;
+public class Retangulo extends Forma {
     private int base;
     private  int altura;
-    private Color cor;
     private int area;
     private String tipo = "Retangulo";
 
     Scanner scanner = new Scanner(System.in);
 
-    public Retangulo(Ponto ponto, int base, int altura, Color cor){
+    public Retangulo(Ponto ponto, Color cor, int base, int altura){
+        super(ponto, cor);
         validarDados(base, altura);
-
-        this.ponto = ponto;
         this.base = base;
         this.altura = altura;
-        this.cor = cor;
 
         if (base == altura) this.tipo = "Quadrado";
     }
 
     public void desenhar(Graphics g) {
-        g.setColor(this.cor);
+        g.setColor(super.getCor());
         g.fillRect(this.getPonto().getX(),
                 this.getPonto().getY(),
                 this.getBase(),
@@ -55,10 +52,10 @@ public class Retangulo {
 
             if (escolha == 1) {
                 System.out.println("Digite o valor do eixo Dx: ");
-                ponto.setX(scanner.nextInt());
+                super.getPonto().setX(scanner.nextInt());
 
                 System.out.println("Digite o valor do eixo Dy: ");
-                ponto.setY(scanner.nextInt());
+                super.getPonto().setY(scanner.nextInt());
             }
         } while (escolha != 1 && escolha != 2);
 
@@ -76,8 +73,8 @@ public class Retangulo {
     }
 
     public void Mover(int x, int y) {
-        ponto.setX(x);
-        ponto.setY(y);
+        super.getPonto().setX(x);
+        super.getPonto().setY(y);
     }
 
     private void validarDados(int base, int altura) {
@@ -85,13 +82,6 @@ public class Retangulo {
         if (altura < 0) throw new RuntimeException("altura não pode ser menor que 0");
     }
 
-    public Ponto getPonto() {
-        return ponto;
-    }
-
-    public void setPonto(Ponto ponto) {
-        this.ponto = ponto;
-    }
 
     public int getBase() {
         return base;
@@ -107,14 +97,6 @@ public class Retangulo {
 
     public void setAltura(int altura) {
         this.altura = altura;
-    }
-
-    public Color getCor() {
-        return cor;
-    }
-
-    public void setCor(Color cor) {
-        this.cor = cor;
     }
 
     public int getArea() { return area; }
